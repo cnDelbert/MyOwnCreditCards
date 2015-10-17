@@ -1,0 +1,12 @@
+# IDEA Files
+
+.idea
+
+
+# Mac Files
+
+.DS_Store
+
+# Project Files
+
+config/config.inc.php
