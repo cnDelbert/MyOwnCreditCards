@@ -5,3 +5,6 @@
  * Date: 15/10/19
  * Time: 下午11:11
  */
+function redirect($path){
+    header("location: $path");
+}
