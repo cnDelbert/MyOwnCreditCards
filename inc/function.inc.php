@@ -8,3 +8,7 @@
 function redirect($path){
     header("location: $path");
 }
+
+function get_domain(){
+    return $_SERVER['HTTP_HOST'];
+};

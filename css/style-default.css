@@ -1,0 +1,18 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.default-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.default-showcase > p > .btn {
+    margin: 5px 0;
+}
+
+.default-showcase .navbar .container {
+    width: auto;
+}

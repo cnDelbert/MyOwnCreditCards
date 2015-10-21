@@ -13,7 +13,12 @@ require_once("function.inc.php");
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="author" content="Delbert">
+    <meta name="description" content="Delbert's Credit Cards">
+
+    <link href="//<?php echo get_domain(); ?>/css/style-default.css" rel="stylesheet">
+
     <title>My Own Credit Cards</title>
 
     <!-- Bootstrap -->
