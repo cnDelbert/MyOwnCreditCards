@@ -9,6 +9,11 @@ body {
     margin-bottom: 20px;
 }
 
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: gray;
+    font-family: monospace;
+}
+
 .default-showcase > p > .btn {
     margin: 5px 0;
 }
