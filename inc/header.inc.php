@@ -42,6 +42,7 @@ require_once("function.inc.php");
     <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body role="document">
 
     <!-- Fixed navbar -->
@@ -54,7 +55,7 @@ require_once("function.inc.php");
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Bootstrap theme</a>
+                <a class="navbar-brand" href="#" title="My Own Credit Cards">My Own CCs</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">

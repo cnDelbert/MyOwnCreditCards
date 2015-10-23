@@ -31,3 +31,10 @@ function show_title(){
         echo "- ".ucwords(substr($_SERVER["REQUEST_URI"], 1, -4));
     }
 };
+
+
+function include_sql(){
+    if(SQL == "MySQL"){
+        require_once("//".get_install_path()."inc/MySql_func.inc.php");
+    }
+};
