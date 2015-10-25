@@ -6,11 +6,19 @@
  * Time: 下午11:11
  */
 
-
+// Basic Functions
 
 function redirect($path){
     header("location: $path");
-}
+};
+
+function check_cookies(){
+
+};
+
+function gen_cookies(){
+
+};
 
 function get_domain(){
     return $_SERVER['HTTP_HOST'];
