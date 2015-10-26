@@ -19,6 +19,8 @@ function get_config_path(){
 };
 require_once(get_config_path());
 require_once("function.inc.php");
+
+$conn = connect_database();
 ?>
 <!DOCTYPE html>
 <html lang="en">

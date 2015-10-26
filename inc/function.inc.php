@@ -43,6 +43,8 @@ function show_title(){
 
 function include_sql(){
     if(SQL == "MySQL"){
-        require_once("//".get_install_path()."inc/MySql_func.inc.php");
+        require_once(dirname(__FILE__)."/MySql_func.inc.php");
     }
 };
+
+include_sql();
