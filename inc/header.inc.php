@@ -76,7 +76,6 @@ $conn = connect_database();
 <!--                            <li><a href="#">One more separated link</a></li>-->
 <!--                        </ul>-->
 <!--                    </li>-->
-
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">User</a></li>
