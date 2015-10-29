@@ -33,7 +33,8 @@ function get_install_path(){
 }
 
 function show_title(){
-    if($_SERVER["REQUEST_URI"] == "/" || $_SERVER["REQUEST_URI"] == "/index.php"){
+    if ($_SERVER["REQUEST_URI"] === "/"
+        || substr($_SERVER["REQUEST_URI"], 0, 9) === "/index.php"){
         echo "- Home";
     } else {
         echo "- ".ucwords(substr($_SERVER["REQUEST_URI"], 1, -4));
@@ -46,5 +47,16 @@ function include_sql(){
         require_once(dirname(__FILE__)."/MySql_func.inc.php");
     }
 };
+
+function get_login_status(){
+    if (( !$_COOKIE["_hash_name"] ) || ( !$_COOKIE["_hash_pass"] )){
+        return false;
+    } elseif ( ($_COOKIE["_hash_name"] === sql_get_hash_name())
+            && ($_COOKIE["_hash_pass"] === sql_get_hash_pass()) ){
+        return true;
+    } else{
+        return false;
+    }
+}
 
 include_sql();

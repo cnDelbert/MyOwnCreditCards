@@ -6,8 +6,9 @@
  * Time: 下午3:56
  */
 require_once("./inc/header.inc.php");
+var_dump(mysqli_query($conn, "SELECT * FROM 'MyCCs_User' WHERE 'UID' == 0"));
+var_dump(sql_get_hash_name());
 ?>
-
 
     <div class="container default-showcase" role="main">
 
