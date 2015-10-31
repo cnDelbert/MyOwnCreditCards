@@ -13,5 +13,5 @@ var_dump(mysqli_query($conn, "SELECT * FROM MyCCs_User"));
 
 
 <?php
-//var_dump($_SERVER);
+//var_dump($_SERVER); 
 require_once("./inc/footer.inc.php");
